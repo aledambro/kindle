@@ -56,7 +56,7 @@ class IlPost(BasicNewsRecipe):
         ' la ricetta puo\' essere configurata per tenerle a colori'
     )
     tags = "news"
-    cover_url = "https://www.ilpost.it/wp-content/themes/ilpost/images/ilpost.svg"
+    cover_url = "https://images.app.goo.gl/osydek1Ujab3draD9"
     ignore_duplicate_articles = {"title", "url"}
     no_stylesheets = True
     keep_only_tags = [dict(id=["expanding", "singleBody"])]
