@@ -12,5 +12,5 @@ class AdvancedUserRecipe1599231166(BasicNewsRecipe):
     feeds          = [
         ('Newsletter', 'https://kill-the-newsletter.com/feeds/fg7x4xrpuhp3gzuxmjv0.xml'),
         ('Interesting Engineering', 'https://interestingengineering.com/feed'),
-        ('The Local', 'https://www.thelocal.dk/'),
+        ('The Local', 'https://feeds.thelocal.com/rss/dk'),
     ]
