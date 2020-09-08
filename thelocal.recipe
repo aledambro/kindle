@@ -10,5 +10,5 @@ class AdvancedUserRecipe1599231166(BasicNewsRecipe):
     auto_cleanup   = True
 
     feeds          = [
-        ('The Local', 'https://www.thelocal.dk/'),
+        ('The Local', 'https://feeds.thelocal.com/rss/dk'),
     ]
