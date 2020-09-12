@@ -5,8 +5,8 @@ from calibre.web.feeds.news import BasicNewsRecipe
 
 class AdvancedUserRecipe1599231166(BasicNewsRecipe):
     title          = 'Interesting Engineering'
-    oldest_article = 2
-    max_articles_per_feed = 10
+    oldest_article = 50
+    max_articles_per_feed = 100
     auto_cleanup   = True
 
     feeds          = [
