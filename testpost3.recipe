@@ -91,7 +91,7 @@ class IlPost(BasicNewsRecipe):
     def parse_index(self):
         feeds = []
         for section in sections:
-            feeds.append(self.parse_page(section[0], section[1]))
+            feeds.append(self.parse_page(section[0], section[1], section[2]))
         return feeds
 
     def postprocess_html(self, soup, first):
