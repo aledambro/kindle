@@ -67,7 +67,7 @@ class IlPost(BasicNewsRecipe):
         entries = []
         for article in soup.findAll('article'):
             for link in article.findAll('a', href=True, title=True):
-                if not link["href"].startswith("https://www.ilpost.it"+ time.strftime('/%Y/%m/%d')) | link["href"].startswith("https://www.ilpost.it"+ yesterday.strftime('/%Y/%m/%d')):
+                if link["href"].startswith("https://www.ilpost.it"+ time.strftime('/%Y/%m/%d')) | link["href"].startswith("https://www.ilpost.it"+ yesterday.strftime('/%Y/%m/%d')):
                     continue
                 title = link["title"]
                 for prefix in prefixes:
