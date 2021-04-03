@@ -57,7 +57,7 @@ class IlPost(BasicNewsRecipe):
     )
     tags = "news"
     cover_url = "https://images.app.goo.gl/osydek1Ujab3draD9"
-    ignore_duplicate_articles = {"title", "url"}
+  #  ignore_duplicate_articles = {"title", "url"}
     no_stylesheets = True
     keep_only_tags = [dict(id=["expanding", "singleBody"])]
 
