@@ -18,6 +18,7 @@ from calibre.utils.magick import Image
 # Commenta (aggiungi # davanti alla riga) per disabilitare le sezioni che non vuoi scaricare
 sections = [
     ("Prima Pagina", "https://www.ilpost.it/tag/prime-pagine"),
+    ("Italia", "https://www.ilpost.it/italia/"),
     ("Europa", "https://www.ilpost.it/europa/"),
     ("Mondo", "https://www.ilpost.it/mondo/"),
     ("Politica", "https://www.ilpost.it/politica/"),
