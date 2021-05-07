@@ -35,7 +35,7 @@ sections = [
 ]
 
 # Change this to True if you want grey images
-convert_to_grayscale = True
+convert_to_grayscale = False
 
 # ----------- CUSTOMIZATION OPTIONS OVER -----------
 
